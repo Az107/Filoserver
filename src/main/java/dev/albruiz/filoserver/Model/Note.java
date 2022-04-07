@@ -2,9 +2,9 @@ package dev.albruiz.filoserver.Model;
 
 public class Note {
 
-    int id;
-    String title;
-    String content;
+    private int id;
+    private String title;
+    private String content;
 
     public Note(int id, String title, String content) {
         this.id = id;
